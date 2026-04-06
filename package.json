@@ -1,0 +1,31 @@
+{
+  "name": "content-automation-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automatic Content Creation using LLM / AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/main.ts hobbies",
+    "start": "tsx src/main.ts hobbies"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acaceresn/content-automation-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acaceresn/content-automation-platform/issues"
+  },
+  "homepage": "https://github.com/acaceresn/content-automation-platform#readme",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "openai": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
