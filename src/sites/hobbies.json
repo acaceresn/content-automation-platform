@@ -1,0 +1,116 @@
+{
+  "siteKey": "hobbies",
+  "siteName": "CollectionStores Hobbies",
+  "baseUrl": "https://collectionstores.com",
+  "language": "en",
+  "countryTargets": ["US", "CA", "UK"],
+  "timezone": "America/Toronto",
+
+  "wordpress": {
+    "username": "ai-publisher",
+    "defaultStatus": "draft",
+    "defaultAuthorId": 1,
+    "defaultCategoryId": 12,
+    "postEndpoint": "/wp-json/wp/v2/posts",
+    "mediaEndpoint": "/wp-json/wp/v2/media"
+  },
+
+  "contentRules": {
+    "minWords": 1400,
+    "maxWords": 2200,
+    "includeFaq": true,
+    "includeProsCons": true,
+    "includeTable": true,
+    "maxParagraphLength": 120,
+    "minHeadings": 6,
+    "tone": "helpful, practical, beginner-friendly",
+    "readingLevel": "general audience",
+    "avoidClaims": [
+      "scientific guarantees",
+      "medical claims",
+      "financial promises"
+    ]
+  },
+
+  "seoRules": {
+    "keywordInTitle": true,
+    "keywordInIntro": true,
+    "keywordInH2": true,
+    "metaDescriptionMax": 155,
+    "slugMaxLength": 70,
+    "maxInternalLinks": 4,
+    "minInternalLinks": 2,
+    "maxExternalLinks": 2
+  },
+
+  "scheduler": {
+    "postsPerWeek": 2,
+    "refreshPostsPerWeek": 1,
+    "publishDays": ["monday", "thursday"],
+    "publishHour": 9
+  },
+
+  "imageGeneration": {
+    "enabled": true,
+    "style": "clean modern hobby photography",
+    "aspectRatio": "16:9",
+    "avoidText": true
+  },
+
+  "clusters": [
+    {
+      "cluster": "indoor hobbies",
+      "pillar": "best indoor hobbies for adults",
+      "topics": [
+        "cheap indoor hobbies for adults",
+        "creative indoor hobbies you can start this weekend",
+        "relaxing indoor hobbies for stress relief",
+        "indoor hobbies for couples",
+        "indoor hobbies that can make money"
+      ]
+    },
+
+    {
+      "cluster": "collecting",
+      "pillar": "how to start a collecting hobby",
+      "topics": [
+        "beginner coin collecting guide",
+        "beginner stamp collecting guide",
+        "how to store collectibles safely",
+        "most popular collecting hobbies today",
+        "coin collecting vs stamp collecting"
+      ]
+    },
+
+    {
+      "cluster": "craft hobbies",
+      "pillar": "best craft hobbies for adults",
+      "topics": [
+        "easy crafts for beginners",
+        "low mess craft hobbies you can do at home",
+        "craft hobbies for small spaces",
+        "craft hobbies you can start with under 50 dollars",
+        "creative weekend DIY hobbies"
+      ]
+    }
+  ],
+
+  "internalLinking": {
+    "strategy": "cluster",
+    "maxLinksPerArticle": 3,
+    "linkOnlySameCluster": true
+  },
+
+  "duplicateControl": {
+    "checkExistingSlug": true,
+    "checkSimilarTitle": true,
+    "similarityThreshold": 0.8
+  },
+
+  "tracking": {
+    "trackPublishedPosts": true,
+    "trackKeyword": true,
+    "trackCluster": true
+  }
+}
+
