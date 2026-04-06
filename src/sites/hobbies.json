@@ -1,7 +1,7 @@
 {
   "siteKey": "hobbies",
   "siteName": "CollectionStores Hobbies",
-  "baseUrl": "https://collectionstores.com",
+  "baseUrl": "https://collectionsstores.com",
   "language": "en",
   "countryTargets": ["US", "CA", "UK"],
   "timezone": "America/Toronto",
